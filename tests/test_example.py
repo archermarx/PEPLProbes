@@ -1,6 +1,5 @@
 from PEPLProbes.utils.differentiate import central_difference_coeffs
 import math
-from math import isclose, sqrt
 
 def test_central_diffs_even():
     h = 0.1
@@ -10,7 +9,7 @@ def test_central_diffs_even():
     (d0, d1, d2) = central_difference_coeffs(x0, x1, x2)
     # Check to make sure we recover classic second order central difference
     # on evenly-spaced data
-    assert isclose(d0, -0.5 / h) and isclose(d1, 0.0) and isclose(d2, 0.5 / h)
+    assert math.isclose(d0, -0.5 / h) and math.isclose(d1, 0.0) and math.isclose(d2, 0.5 / h)
 
 class TestDerivatives:
 
@@ -30,7 +29,7 @@ class TestDerivatives:
 
         deriv_exact  = deriv(x0)
         deriv_approx = d0*f0 + d1*f1 + d2*f2
-        assert isclose(deriv_exact, deriv_approx, abs_tol=self.tol)
+        assert math.isclose(deriv_exact, deriv_approx, abs_tol=self.tol)
 
     def test_sin(self):
         func = math.sin
