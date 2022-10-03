@@ -2,4 +2,4 @@
 
 | **Build Status**|
 |:-------------------------------------------------------------------------------:|
-[![CI](https://github.com/UM-PEPL/HallThruster.jl/actions/workflows/ci.yml/badge.svg)](https://github.com/UM-PEPL/HallThruster.jl/actions/workflows/ci.yml) 
+[![Tests](https://github.com/UM-PEPL/PEPLProbes/actions/workflows/tests.yaml/badge.svg)](https://github.com/UM-PEPL/PEPLProbes/actions/workflows/tests.yaml)
