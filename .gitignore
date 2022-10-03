@@ -1,0 +1,4 @@
+.env/
+tests/__pycache__/
+src/PEPLProbes.egg-info/
+.pytest_cache/

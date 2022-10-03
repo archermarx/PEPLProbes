@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]
+pythonpath=[".", "src/"]
+
+[project]
+name = "PEPLProbes"
+version = "0.0.1"
+authors = [
+  {name="Thomas A. Marks",   email="marksta@umich.edu"},
+  {name="Parker J. Roberts", email="pjrob@umich.edu"  },
+  {name="William J. Hurley", email="wjhurl@umich.edu" },
+]
+description = "Probe analysis tools"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/UM-PEPL/PEPLProbes"
+"Bug Tracker" = "https://github.com/UM-PEPL/PEPLProbes/issues"
