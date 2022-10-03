@@ -2,4 +2,4 @@
 
 | **Build Status**|
 |:-------------------------------------------------------------------------------:|
-[![Tests](https://github.com/UM-PEPL/PEPLProbes/actions/workflows/tests.yaml/badge.svg)](https://github.com/UM-PEPL/PEPLProbes/actions/workflows/tests.yaml)
+[![Tests](https://github.com/UM-PEPL/PEPLProbes/actions/workflows/testing.yaml/badge.svg)](https://github.com/UM-PEPL/PEPLProbes/actions/workflows/testing.yaml)
